@@ -14,8 +14,12 @@ My expertise in PCB design includes:
 - Assignment of BOM part numbers for manufacturing and assembly.
 - Generation of Gerber, Excellon, and other fabrication files.
 
-
-
 ## Contact
 If you are interested in my services for a PCB design project, please feel free to contact me.
 Email: julianferrari3@gmail.com
+
+____________________________________________________________________
+![Sistema de Adquisición de Datos](https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Sistema%20de%20Adquisici%C3%B3n%20de%20Datos%20-%20ALTIUM%2018/3_SAD.png)
+
+
+
