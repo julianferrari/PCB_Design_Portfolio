@@ -1,9 +1,26 @@
-# Micro PLC basado en el Atmega328p. 
+# Diseño de Micro PLC basado en ATmega328P compatible con OpenPLC.
 
-Este PCB lo diseñé con KICAD 9, y me basé en el microcontrolador ATMEGA328p para poder utilizarlo con OpenPLC y usar programación LADDER (Compatible con IEC 61131-3). El micro PLC tiene 6 entradas digitales, 2 entradas analogicas (0-10V y 4-20mA) y tiene 4 salidas a Relé de hasta 7A y 2 salidas PWM (0-10V).
-Para el diseño utilicé las herramientas que brinda KICAD para ser consistente con las normas IPC-2221.
+Este diseño de PCB fue desarrollado utilizando KiCad 9, tomando como núcleo el microcontrolador ATmega328P, con el objetivo de ser compatible con OpenPLC y permitir la programación en lenguaje LADDER, conforme a la norma IEC 61131-3 para sistemas de control industrial.
+El micro PLC cuenta con las siguientes características funcionales:
+
+- 6 entradas digitales para señales de sensores o pulsadores.
+- 2 entradas analógicas, configurables para 0–10V y 4–20mA
+- 4 salidas digitales a relé, con capacidad de conmutar hasta 7A.
+- 2 salidas PWM convertidas a señal 0–10V, para el control de iluminación u otras aplicaciones.
+
+Durante el desarrollo utilicé las herramientas de diseño eléctrico integradas en KiCad para cumplir las normas de diseño IPC-2221, asegurando buenas prácticas de diseño como:
+
+- Aislamiento adecuado entre pistas de alta y baja tensión.
+- Trazado de pistas según corrientes nominales.
+- Selección de footprints industriales y robustos.
+- Identificación clara de terminales de entrada/salida.
+
+Este proyecto apunta a facilitar el uso de OpenPLC en entornos educativos, de automatización ligera o prototipado rápido, ofreciendo una alternativa económica, flexible y fácilmente replicable para la implementación de sistemas de control industrial.
 
 ![image](1_microPLCSMD.png) 
 ![image](2_microPLCSMD.png) 
 ![image](3_microPLCSMD.png) 
+
+Las dimensiones de la placa son 94 x 94mm, de doble capa y componentes SMD y Through-Hole ubicados en la capa TOP solamente, para economizar el servicio de montaje para la fabricación en JLCPCB o PCBWAY.
+
 ![image](4_microPLCSMD.png) 
