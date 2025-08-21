@@ -1,14 +1,9 @@
-# RF_Shield_Beaglebone_Black
+# Diseño basado en el ESP32-S3 Development Kit
+Diseño de un PCB de 4 capas basado en el ESP32-S3 Development Kit - Espressif Systems. Consistente con criterios EMI/EMC para lograr una placa robusta y confiable. Realizado en Altium Designer. 
 
-PCB de doble capa diseñado para usarse como shield de la Beaglebone Black, como interfaz de un sistema de comunicaciones RF. Se utilizó Proteus 7 (ISIS/ARES) para el diseño del esquemático y PCB. El prototipo se fabricó con una fresa CNC a partir de los archivos Gerber. 
-
-Se puede ver el proyecto completo en esta publicación que realicé en el Congreso Argentino de Sistemas Embebidos: [CASE 2018](Paper_CASE2018.pdf)
-
-![image](PCB_shield2.png) 
-![image](PCB_shield1.png)
-![image](PCB_shield3.png)
+![image](01_ESP32_S3_DevKit.png) 
+![image](02_ESP32_S3_DevKit.png)
+![image](03_ESP32_S3_DevKit.png)
+![image](04_ESP32_S3_DevKit.png)
 
 
-![image](IMG_20180604_144608.jpg)
-![image](IMG_20180604_144616.jpg)
-![image](IMG_20180604_144629.jpg)
