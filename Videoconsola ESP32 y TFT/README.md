@@ -1,9 +1,8 @@
-# Diseño basado en el ESP32-S3 Development Kit
-Diseño de un PCB de 4 capas basado en el ESP32-S3 Development Kit - Espressif Systems. Consistente con criterios EMI/EMC para lograr una placa robusta y confiable. Realizado en Altium Designer. 
+# Videoconsola basada en el ESP32-S3 de Espressif con pantalla LCD TFT.
 
-![image](01_ESP32_S3_DevKit.png) 
-![image](02_ESP32_S3_DevKit.png)
-![image](03_ESP32_S3_DevKit.png)
-![image](04_ESP32_S3_DevKit.png)
+![image](1_Videoconsola.png) 
+![image](2_Videoconsola.png)
+![image](3_Videoconsola.png)
+![image](4_Videoconsola.png)
 
 
