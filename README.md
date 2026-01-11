@@ -9,7 +9,9 @@ My expertise in PCB design includes:
 
 - Schematic capture and PCB layout using KiCad and Altium Designer.
 - Design for both SMT and Through-Hole assembly.
+- Stackup: 2 or 4 layers with mixed signals.
 - Familiarity with IPC-2221 PCB design standards.
+- Familiarity with the best EMC/EMI practices.
 - Creation of custom symbols and footprints.
 - Assignment of BOM part numbers for manufacturing and assembly.
 - Generation of Gerber, Excellon, and other fabrication files.
