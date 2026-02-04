@@ -1,25 +1,15 @@
-# Diseño de Micro PLC basado en ATmega328P compatible con OpenPLC.
+# Nodo CAN (ISO 11898-2)
 
-Este diseño de PCB fue desarrollado utilizando KiCad 9, tomando como núcleo el microcontrolador ATmega328P, con el objetivo de ser compatible con OpenPLC y permitir la programación en lenguaje LADDER, conforme a la norma IEC 61131-3 para sistemas de control industrial.
-El micro PLC cuenta con las siguientes características funcionales:
+Se trata de un Nodo CAN con I/O digitales para leer sensores y escribir sobre actuadores, y que pueda comunicarse a traves de un BUS CAN (ISO 11898-2, High-Speed CAN 1 Mbps). La idea es ofrecer un dispositivo simple y económico que pueda integrarse en un ecosistema existente, o crear uno a partir de estos nodos. Voy a hacer 2 entradas analógicas de 0-10V (si necesito 4-20mA uso un conversor externo), 4 entradas digitales optoacopladas (solo lectura) y 4 salidas digitales en configuración Low-Side (Sink) con MOSFET. 
 
-- 6 entradas digitales para señales de sensores o pulsadores.
-- 2 entradas analógicas, configurables para 0–10V y 4–20mA
-- 4 salidas digitales a relé, con capacidad de conmutar hasta 7A.
-- 2 salidas PWM convertidas a señal 0–10V, para el control de iluminación u otras aplicaciones.
+Se pretende hacer un PCB de 4 capas donde se integre un STM32F103C8T6 (Bluepill) y un transceiver SN65HVD23 de Texas Instruments (al principio pensé en el TJA1050/1051, pero funciona a 5V. Para evitar inconvenientes uso el de TI que funciona a 3.3V como el STM32). El controlador CAN ya está implementado en el STM32. En este micro se utilizan las librerías HAL-CAN para el manejo del empaquetado de tramas, CRC, ACK, y todo lo que compete al protocolo CAN en sí. Luego, como capa de alto nivel, se utilizarán las librerías CANopenNODE (o algún CANopen) para que maneje los mensajes PDO/SDO (PDO  Process Data Object: Maneja datos / SDO  Service Data Object: Maneja configuraciones); es decir, para poder dialogar con otros dispositivos en alto nivel (interfaz humano-máquina). La rutina de lectura de sensores y control de actuadores lo haría en C, directamente sobre el microcontrolador.
 
-Durante el desarrollo utilicé las herramientas de cálculo integradas en KiCad para cumplir las normas de diseño IPC-2221, asegurando buenas prácticas de diseño como:
+![image](Nodo_Desciption.png) 
+![image](jerarquias.png) 
+![image](schematic_sample.png) 
+![image](3d_VIEW.png) 
+![image](3d_VIEW_2.png) 
+![image](2-Via Stitching 3V3.png)
+![image](placa_03.png) 
+![image](placa_04.png) 
 
-- Aislamiento adecuado entre pistas de alta y baja tensión.
-- Trazado de pistas según corrientes nominales.
-- Selección de footprints industriales y robustos.
-- Identificación clara de terminales de entrada/salida.
-
-Las dimensiones de la placa son 94 x 94mm, de doble capa y componentes SMD y Through-Hole ubicados en la capa TOP solamente, para economizar el servicio de montaje en la fabricación en JLCPCB o PCBWAY. Para el diseño utilicé pistas de 8, 20, 35, 40, 80 y 110 mils, un drill mínimo de 0.3mm, grosor del cobre de 1 oz/ft^2 y material FR-4. Las reglas de diseño las establecí según la documentación de JLCPCB.
-
-Este proyecto apunta a facilitar el uso de OpenPLC en entornos educativos, de automatización ligera o prototipado rápido, ofreciendo una alternativa económica, flexible y fácilmente replicable para la implementación de sistemas de control industrial.
-
-![image](1_microPLCSMD.png) 
-![image](2_microPLCSMD.png) 
-![image](3_microPLCSMD.png) 
-![image](4_microPLCSMD.png) 
