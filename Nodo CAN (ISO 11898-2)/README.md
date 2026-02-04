@@ -9,7 +9,7 @@ Se pretende hacer un PCB de 4 capas donde se integre un STM32F103C8T6 (Bluepill)
 ![image](schematic_sample.png) 
 ![image](3d_VIEW.png) 
 ![image](3d_VIEW_2.png) 
-![image](2-Via Stitching 3V3.png)
+![image](Via3V3.png)
 ![image](placa_03.png) 
 ![image](placa_04.png) 
 
