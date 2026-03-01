@@ -23,12 +23,20 @@ Email: julianferrari3@gmail.com
 ____________________________________________________________________
 
 <p align="center">
-  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/raw/main/Sistema%20de%20Adquisici%C3%B3n%20de%20Datos%20-%20ALTIUM%2018/3_SAD.png" width="400" />
-  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Fuente%20Regulada%20-%20KICAD%209/3_FuenteRegulada.png" width="400" />
-  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Control%20de%20Bombas%20de%20Agua%20-%20ALTIUM%2018/1.png" width="400" />
-  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Micro%20PLC%20ATmega328p%20-%20KICAD%209/3_microPLCSMD.png" width="400" />
-  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Beaglebone%20Black%20Shield%20for%20SDR%20Modem%20-%20PROTEUS%207/IMG_20180604_144629.jpg" width="400" />
-  <img src="https://user-images.githubusercontent.com/14803755/211771168-9c501317-e964-4e78-b927-80e7f1cfadd2.png" width="400" />
+  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/raw/main/Sistema%20de%20Adquisici%C3%B3n%20de%20Datos%20-%20ALTIUM%2018/3_SAD.png" width="500" />
+  <img src="Sistema de Adquisición de Datos - ALTIUM 18/0_SAD.png" width="500"/>
+    
+  <img src="CAN Datalogger ESP32-S3/can_logger_01.png"/>
+  <img src="Nodo CAN (ISO 11898-2)/Nodo_Desciption.png"/>
+  <img src="ESP32_IFA_Antenna - ALTIUM 25/ESP_002.png"/>
+  
+  <img src="Micro PLC ATmega328p - KICAD 9/4_microPLCSMD.png" width="500"/>
+  <img src="Micro PLC ATmega328p - KICAD 9/1_microPLCSMD.png" width="500"/>
+
+  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Micro%20PLC%20ATmega328p%20-%20KICAD%209/3_microPLCSMD.png" width="500" />
+  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Fuente%20Regulada%20-%20KICAD%209/3_FuenteRegulada.png" width="500" />
+  <img src="https://github.com/julianferrari/PCB_Design_Portfolio/blob/main/Beaglebone%20Black%20Shield%20for%20SDR%20Modem%20-%20PROTEUS%207/IMG_20180604_144629.jpg" width="500" />
+  <img src="https://user-images.githubusercontent.com/14803755/211771168-9c501317-e964-4e78-b927-80e7f1cfadd2.png" width="500" />
 </p>
 
 
