@@ -8,11 +8,11 @@ I am an electronic engineer with experience in PCB design, layout, and manufactu
 My expertise in PCB design includes:
 
 - Schematic capture and PCB layout using KiCad and Altium Designer.
-- Design for both SMT and Through-Hole assembly.
-- Stackup: 2 or 4 layers with mixed signals.
-- Familiarity with IPC-2221 PCB design standards.
-- Familiarity with the best EMC/EMI practices.
 - Creation of custom symbols and footprints.
+- Design for both SMT and Through-Hole assembly.
+- Stackup: up to 4 layers with mixed signals.
+- Familiarity with IPC-2221 PCB design standards.
+- Familiarity with the best EMC/EMI, DFM and DFA practices.
 - Assignment of BOM part numbers for manufacturing and assembly.
 - Generation of Gerber, Excellon, and other fabrication files.
 
