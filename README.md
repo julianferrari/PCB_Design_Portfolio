@@ -1,5 +1,5 @@
 # PCB_Design_Portfolio
-This repository showcases some of my PCB design and manufacturing projects. I work with tools such as KiCad and Altium Designer.
+This repository showcases some of my PCB design and manufacturing projects. I work with tools such as KiCad and Altium Designer. In the folder "Design & Technical Specification Reports" you can find some of the reports I perform for all my works.
 
 ## Overview
 I am an electronic engineer with experience in PCB design, layout, and manufacturing. I have completed numerous projects across various industries and applications, including embedded systems and microcontroller-based designs.
