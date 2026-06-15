@@ -23,6 +23,10 @@ Email: julianferrari3@gmail.com
 ____________________________________________________________________
 
 <p align="center">
+  
+  <img src="Industrial Scada Module - KICAD 10/compare.png" />
+  <img src="Industrial Scada Module - KICAD 10/with_programmer.jpeg" width="500"/>  
+  
   <img src="https://github.com/julianferrari/PCB_Design_Portfolio/raw/main/Sistema%20de%20Adquisici%C3%B3n%20de%20Datos%20-%20ALTIUM%2018/3_SAD.png" width="500" />
   <img src="Sistema de Adquisición de Datos - ALTIUM 18/0_SAD.png" width="500"/>
     
