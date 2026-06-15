@@ -6,6 +6,9 @@ industrial robusta. También se dejaron unos pines SPI libres para probar un mó
 La placa cumple con el estándar IEC 61131-3 para poder compatibilizar con otros dispositivos y sistemas SCADA. Tiene circuitería para acondicionar una entrada digital optoacoplada con el PC817, una entrada analógica de 0-10V y una entrada analógica de 4-20mA. 
 
 
-![image](Board\Pinnout.png) 
-
-![image](can_logger_01.png)
+![image](compare.png)
+![image](Board_Pinnout.png) 
+![image](board_1.png)
+![image](front.jpeg)
+![image](side.jpeg)
+![image](with_programmer.jpeg)
